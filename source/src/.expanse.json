@@ -1,0 +1,179 @@
+{
+  "objects": {
+    "32f9a102-eb74-4ebe-9288-37bf6a0af7d4": {
+      "id": "32f9a102-eb74-4ebe-9288-37bf6a0af7d4",
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Camera",
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "3D",
+          "headset": "AR",
+          "world": {
+            "disableWorldTracking": false
+          }
+        }
+      },
+      "parentId": "c908ed61-9adb-46d6-9a67-7b0cd205fc23",
+      "order": 1
+    },
+    "0c0dab92-0739-4f63-8c8b-6a52a7be0be7": {
+      "id": "0c0dab92-0739-4f63-8c8b-6a52a7be0be7",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Ambient Light",
+      "light": {
+        "type": "ambient"
+      },
+      "parentId": "c908ed61-9adb-46d6-9a67-7b0cd205fc23",
+      "order": 0.5
+    },
+    "2797282c-7499-4fdc-8006-0bbfa35dce11": {
+      "id": "2797282c-7499-4fdc-8006-0bbfa35dce11",
+      "position": [
+        20,
+        20,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Directional Light",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      },
+      "parentId": "c908ed61-9adb-46d6-9a67-7b0cd205fc23",
+      "order": 0.6
+    },
+    "7c44aca2-08b2-4a52-a5ec-356c3f2b3e1d": {
+      "id": "7c44aca2-08b2-4a52-a5ec-356c3f2b3e1d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Image Target",
+      "imageTarget": {
+        "name": "hotel-exterior"
+      },
+      "parentId": "c908ed61-9adb-46d6-9a67-7b0cd205fc23",
+      "order": 2
+    },
+    "5995502b-76f3-46e5-b0a4-4fd2b188fab0": {
+      "id": "5995502b-76f3-46e5-b0a4-4fd2b188fab0",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/edificio_5.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "edificio_5.glb",
+      "parentId": "7c44aca2-08b2-4a52-a5ec-356c3f2b3e1d",
+      "order": 3
+    }
+  },
+  "spaces": {
+    "c908ed61-9adb-46d6-9a67-7b0cd205fc23": {
+      "id": "c908ed61-9adb-46d6-9a67-7b0cd205fc23",
+      "name": "Main",
+      "activeCamera": "32f9a102-eb74-4ebe-9288-37bf6a0af7d4",
+      "includedSpaces": [],
+      "reflections": {
+        "type": "url",
+        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
+      }
+    }
+  },
+  "entrySpaceId": "c908ed61-9adb-46d6-9a67-7b0cd205fc23",
+  "runtimeVersion": {
+    "type": "version",
+    "level": "major",
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  }
+}
