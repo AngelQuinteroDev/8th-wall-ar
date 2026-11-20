@@ -1,0 +1,23 @@
+{
+  "imagePath": "image-targets/edificio-img_luminance.png",
+  "metadata": null,
+  "name": "edificio-img",
+  "type": "PLANAR",
+  "properties": {
+    "left": 0,
+    "top": 0,
+    "width": 960,
+    "height": 1280,
+    "isRotated": false,
+    "originalWidth": 960,
+    "originalHeight": 1280
+  },
+  "resources": {
+    "originalImage": "edificio-img_original.png",
+    "croppedImage": "edificio-img_cropped.png",
+    "thumbnailImage": "edificio-img_thumbnail.png",
+    "luminanceImage": "edificio-img_luminance.png"
+  },
+  "created": 1795171405959,
+  "updated": 1795171405959
+}

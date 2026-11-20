@@ -117,7 +117,7 @@
       "components": {},
       "name": "Image Target",
       "imageTarget": {
-        "name": "hotel-exterior"
+        "name": "edificio-img"
       },
       "parentId": "c908ed61-9adb-46d6-9a67-7b0cd205fc23",
       "order": 2

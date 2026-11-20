@@ -1,6 +1,6 @@
 const onxrloaded = () => {
   XR8.XrController.configure({
-    imageTargetData: [require('../image-targets/hotel-exterior.json')],
+    imageTargetData: [require('../image-targets/edificio-img.json')],
   })
   XR8.addCameraPipelineModule(LandingPage.pipelineModule())
 }
